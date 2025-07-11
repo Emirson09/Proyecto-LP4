@@ -1,0 +1,72 @@
+.landing-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.landing-header {
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #e9f5ec 0%, #cfdef3 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  max-width: 500px;
+  width: 100%;
+}
+
+.landing-header h1 {
+  font-size: 2.5rem;
+  color: #2d6a4f;
+  margin-bottom: 16px;
+}
+
+.landing-header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.register-btn {
+  background: #2d6a4f;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+.register-btn:hover {
+  background: #95d5b2;
+  color: #2d6a4f;
+}
+
+.habits-title {
+  font-size: 1.7rem;
+  color: #2d6a4f;
+  margin: 40px 0 20px 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .landing-header {
+    margin-top: 20px;
+    padding: 20px 10px;
+    max-width: 95vw;
+  }
+  .landing-header h1 {
+    font-size: 1.7rem;
+  }
+  .landing-header p {
+    font-size: 1rem;
+  }
+}

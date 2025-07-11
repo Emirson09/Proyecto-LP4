@@ -1,0 +1,30 @@
+.reaction-btn {
+  background: #2d6a4f;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.reaction-btn.liked {
+  background: #95d5b2;
+  color: #2d6a4f;
+  transform: scale(1.07);
+}
+
+.reaction-btn:active {
+  transform: scale(0.97);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .reaction-btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.7rem 0;
+  }
+}
